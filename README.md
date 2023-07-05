@@ -6,5 +6,6 @@ Why It's you of course! Minimum wage warehouse workers!
 Team up with a friend and attempt to complete orders of different boxes that ever increase in difficulty! All the while avoiding forklifts and robo cranes. It's enough to make an OSHA inspector cry!
 But be careful, if you fail to complete orders, your boss will get angry! Do that enough times and say goodbye to your job!
 
+# About this project
 If you'd like to see more info and actually play the build you can click the link here: https://itch.io/jam/dae-game-projects-2022/rate/1401094
 
