@@ -29,7 +29,7 @@ public class BoxCleanup : MonoBehaviour
             if(other.GetComponent<BoxBehaviour>() && other.transform.parent == null)
             {
                 m_BoxList.Remove(other.gameObject);
-                m_BoxCounter--;
+             
                 Destroy(other.gameObject);
                 Instantiate(m_DestroyParticle, transform.position, transform.rotation);
             }
@@ -41,7 +41,7 @@ public class BoxCleanup : MonoBehaviour
         if (other.GetComponent<BoxBehaviour>() != null && other.transform.parent == null)
         {
             m_BoxList.Remove(other.gameObject);
-            m_BoxCounter--;
+      
         }
     }
 
@@ -56,7 +56,7 @@ public class BoxCleanup : MonoBehaviour
         }
 
 
-        if (m_BoxCounter > 0)
+        if (m_BoxList.Count() > 0)
         {
             m_BoxDeletionTimer += Time.deltaTime;
         }
